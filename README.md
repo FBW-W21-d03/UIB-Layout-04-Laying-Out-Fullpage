@@ -11,3 +11,4 @@
 * Use the color specifications found in the image below.
 ![reference-color](/images/reference-colors.png)
 
+* Mobile Version: nur eine Spalte von Videos
