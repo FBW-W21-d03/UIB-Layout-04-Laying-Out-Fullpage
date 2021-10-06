@@ -1,16 +1,28 @@
 
-  div, img {
+.navleiste {justify-content: stretch;
+            background-color: black;
+            width: 100px;
+            height: 400px;
+            
+          }
+          
+
+
+  div{
+      
       width: 300px;
       border: 2px solid black;
-      margin: 5px;
+      
+     
+      
+   
     }
-    main {
-      display: flex;
-      /*flex-direction: row;*/
-      flex-wrap: wrap;
+
+    section {
+      display: flex;  /* Lösungen für das Ausrichten benachbarter Elemente */      
+      flex-wrap: wrap;    /*  legt fest, ob die Elemente in einem Flexbox-Container auf einer Linie liegen, oder bei bedarf auf mehrere Zeilen verteilt werden können. */
       justify-content: center; /* horizontale Ausrichtung */
-      align-items: stretch; /* vertikale Ausrichtung */
-    }
-    .box5 {
-      display: flex;
-    }
+     
+  }
+
+main {display: flex;}
