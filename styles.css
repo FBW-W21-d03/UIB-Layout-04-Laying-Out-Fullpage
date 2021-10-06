@@ -1,5 +1,76 @@
-* {
-    padding: 0px;
-    margin: 0px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+   
+/*   @media only screen and (max-width: 1000px) {
+  body {
+    background-color: lightblue;
+  } */
+
+  body{
+      background-color: #1a1a1a;
+  }
+  h1{
+      text-align: center;
+      background-color: black;
+      color: aliceblue;
+      height: 80px;
+    
+  }
+  .ptext{
+      color: aliceblue;
+      font-size: 2em;
+  }
+  main{
+      text-align: center;
+      background-color: #4b4b4b;
+      width: 1500px;
+      padding: 20px;
+      margin: 100px;
+      
+
+  }
+  .aside{
+    
+  height: 1000px;
+  float: left;
+  
+  background-color: rgb(211, 211, 211);
+      
+     
+  }
+  .asidetext{
+       padding: 20px;
+       
+  }
+   section{ 
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 100px;
+   
+    }
+    h2{
+        margin: 30px;
+
+    }
+.card {
+  box-shadow: 0 10px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 300px;
+ 
+  text-align: center;
+  font-family: arial;
+}
+.text1{
+      color: grey;
+  font-size: 22px;
+}
+.card button {
+  border: none;
+  outline: 0;
+  padding: 12px;
+  color: white;
+  background-color: #1a1a1a;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
 }
