@@ -3,3 +3,58 @@
     margin: 0px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
+
+body {
+    background-color: #1a1a1a;
+    color: white;
+}
+main{
+    width: 30%;
+    height: 100%;
+    margin: 0 auto;
+    background-color: #4b4b4b;
+}
+header {
+    background-color: #000;
+}
+#film-type {
+    display: flex;
+    justify-content: center;
+    height: 30px;
+    margin-top: 5px;
+}
+#film-list {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: flex-end;
+}
+.cards {
+        display: flex;
+        flex-wrap: wrap;
+}
+.cards div {
+
+    color: white;
+    background-color: #000;
+    margin: 10px;
+    box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.5);  
+}
+h4 {
+    text-align: center;
+}
+.cards p {
+    font-size: 15px;
+    text-align:center;
+    margin-top:70px;
+    background-color: #2e2929;
+}
+aside {
+    background-color: white;
+    width: 20%;
+    color: black;
+}
+aside ul li {
+    list-style: none;
+    padding: 5px;
+}
+
