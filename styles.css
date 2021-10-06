@@ -1,5 +1,83 @@
 * {
     padding: 0px;
     margin: 0px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;}
+    
+  
+  /* Style the body */
+  body {
+   background-color: #333;
+
+  }
+  
+  /* Header/logo Title */
+  header{
+     display: flex; 
+     justify-content: center;
+     
+  }
+  .psyhype {      
+
+    text-align: left;
+    background: #000;
+    color: white;
+    font-size: 23px;
+padding: 9px 88px;
+  }
+  /*main*/
+
+  h4{
+      display: flex;
+      justify-content: center;
+      color: white;
+      padding-top: 9px;
+      font-weight: 100;
+      padding-bottom: 13px;
+  }
+ section{
+      
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        display: flex;
+                
+  }
+  p{
+      font-weight: 100;
+       }
+.filmchen{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    padding: 11px;
+}
+#galerie{
+    display: flex;
+    flex-wrap: wrap;
+}
+aside{
+ background-color: white;
+ padding: 9px;
+ line-height: 27px;
+ margin-top: 11px;
+ margin-right: 13px;
+}
+
+
+@media (max-width:500px){
+    body{background-color: rgba(43, 24, 24, 0.801);}
+    #galerie{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;        
+    }
+}
+ 
+.blubb{
+    display: flex;
+    flex-direction: column;
+    color: rgba(255, 255, 255, 0.719);
+}
+.container{
+    background-color: rgb(95, 83, 95);
+
 }
