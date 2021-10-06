@@ -3,3 +3,147 @@
     margin: 0px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
+body{ 
+  
+width: 80%;
+
+    background-color: #1a1a1a; 
+}
+main{
+display: flex;
+background-color: #4b4b4b;
+
+
+}
+
+.container{
+    display: flex;
+     
+}
+
+header{
+    display: flex;
+font-weight: 600;
+font-size:larger ;
+    color: aliceblue;
+    background-color: #000;
+    padding-bottom: 10px;
+  
+  }
+
+h5{
+
+   font-size: 20px;
+ text-align: center;
+    color: aliceblue;
+   font-weight: 100;
+    background-color: #4b4b4b;
+}
+
+.item{
+display: flex;
+background-color: aliceblue;
+width: 90px;
+height: 700px;
+}
+
+.container2{
+
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+}
+
+.bild{
+   
+   display: flex;
+   justify-content: center;
+   align-items: center;
+background-color: #000;
+height: 150px;
+width: 140px;
+color:white;
+}
+
+.boxMovie{
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    
+}
+
+.sub{
+    font-size: 15px;
+padding-left: 6px;
+    display: flex;
+    color: aliceblue;
+    background-color:#1a1a1a;
+}
+
+
+
+@media(min-width:736px){
+           
+.thumb{
+    display: none;
+}
+.bild{
+    border-radius: 15px;
+    box-shadow: rgba(0, 0, 0, 0.473) 5px 5px  ;
+}
+
+}
+
+     
+
+.bild-1{
+      
+    background-image: url(./images/free_guy_poster.jpg) ;
+    background-size: cover;
+ 
+}
+.bild-2{
+    background-image: url(./images/maxresdefault.jpg);
+    background-size: cover;
+}
+
+.bild-3{
+background-image: url(./images/Newsletter---Movie-Scoop[4]_tcm295-133976.jpg);
+    background-size: cover;
+}
+
+.bild-4{
+background-image: url(./images/rbkGgrEHOPyAEZqPk609QN1Ird6.jpg);
+    background-size: cover;
+}
+
+.bild-5{
+background-image: url(./images/shang-chi-poster-marvel.jpg);
+    background-size: cover;
+}
+
+.bild-6{
+background-image: url(./images/1968.jpg);
+    background-size: cover;
+}
+
+.bild-7{
+background-image: url(./images/5555.jpg);
+    background-size: cover;
+}
+
+.bild-8{
+background-image: url(./images/1389743668269_hollywood-movies-on-hollywood-ss17.jpg);
+    background-size: cover;
+}
+
+.bild-9{
+background-image: url(./images/00000.jpg);
+    background-size: cover;
+}
+
+.bild-10{
+background-image: url(./images/rbkGgrEHOPyAEZqPk609QN1Ird6.jpg);
+    background-size: cover;
+}
