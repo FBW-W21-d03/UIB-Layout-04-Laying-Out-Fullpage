@@ -3,3 +3,56 @@
     margin: 0px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
+
+body{background-color: rgb(12, 9, 9);}
+
+article{
+  background-color: #000;
+color: white
+}
+
+div{
+    background-color: black;
+    color: rgb(253, 250, 244);
+    width: 200px;
+    height: 150px;
+    border: 2px solid black;
+    margin: 5px;
+  }
+
+h3{color: rgb(253, 250, 244);
+  text-align: center;
+  background-color: #4b4b4b;
+}
+
+h4{
+  text-align: center;
+  height: 120px;
+ }
+
+p{
+  background-color: #1a1a1a;
+}
+  
+section {
+    background-color: #4b4b4b;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+   
+  }
+  main{
+    display: flex;
+    
+  }
+  
+  aside{
+      background-color: whitesmoke;
+      width: 150px;
+      height: auto;
+      padding: 1rem;
+
+  }
+  
