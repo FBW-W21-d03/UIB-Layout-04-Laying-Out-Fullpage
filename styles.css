@@ -1,5 +1,44 @@
 * {
-    padding: 0px;
-    margin: 0px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  padding: 0px;
+  margin: 0px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+body {
+  width: 80vw;
+  margin: auto;
+}
+header {
+  background-color: black;
+  color: white;
+}
+ul {
+  list-style-type: none;
+}
+nav ul {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+}
+main {
+  display: flex;
+}
+aside ul {
+  width: 10rem;
+}
+#thumbnails {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+.preview {
+  background-color: black;
+  color: white;
+  width: 300px;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+figcaption {
+  text-align: center;
 }
