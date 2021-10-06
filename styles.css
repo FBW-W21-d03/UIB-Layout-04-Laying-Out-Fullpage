@@ -1,5 +1,47 @@
 * {
-    padding: 0px;
-    margin: 0px;
+    padding: 5px;
+    margin: 5px;
+    background-color: rgb(75, 73, 73);
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
+.row1{
+    color: white;
+    background-color: grey;
+    display: flex;
+    padding: auto;
+}
+
+.flex-container {
+    display: flex;
+    flex-wrap:wrap-reverse;
+    background: color #4b4b4b;
+    font-size: 10px;
+  }
+  
+  .flex-container > div {
+    background-color: #4b4b4b;
+    width: 100px;
+    margin: 10px;
+    text-align: center;
+    line-height: 5px;
+    font-size: 10px;
+    display:inline-flexbox;
+  }
+  h1{
+      background-color: #000;
+      color: white;
+      display:flexbox;
+  }
+  nav{
+    width: 100px;
+    margin: left-top;
+    color: rgb(253, 246, 246);
+    flex-wrap: wrap;
+    display: flexbox;
+    background-color: rgb(7, 6, 6);
+  }
+  @media only screen and (max-width: 300px) {
+    body {
+      background-color: rgb(72, 74, 75);
+    }
+  }
