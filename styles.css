@@ -70,7 +70,7 @@ nav p {
 }
 @media (max-width: 800px) {
 
-    .box {
+    .movietube {
         flex-wrap: wrap;
     }
     .column-movie iframe {
