@@ -28,6 +28,7 @@ h2{
     height: auto;
     padding: 1rem;
     font-size: medium;
+    line-height: 2rem;
 }
 
 div{
@@ -65,9 +66,8 @@ main{
 }
 
 @media (max-width: 400px) {
-    h4 {
-        display: flex;
-        flex-direction: column;
+     body{
+       background-color: tomato;
     }
 }
 
