@@ -15,20 +15,19 @@ h4{
     align-items: center;
     justify-content: center;
     height: 140px;
- }
-
+}
 
 h1{
   background-color: #000;
 color: white
 }
+
 h2{
     background-color: whitesmoke;
     width: 150px;
     height: auto;
     padding: 1rem;
     font-size: medium;
-
 }
 
 div{
@@ -36,17 +35,17 @@ div{
     color: rgb(255, 255, 255);
     width: 200px;
     height: 150px;
-    border: 2px solid black;
-    
-  }
+}
+
+p{
+    width: 200px;
+}
 
 h3{color: rgb(255, 255, 255);
   text-align: center;
   background-color: #4b4b4b;
   line-height: 2.5rem;
 }
-
-
 
 p{
   background-color: #1a1a1a;
@@ -58,21 +57,16 @@ section {
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    gap: 1rem;
-   
+    gap: 1rem; 
   }
-  main{
-    display: flex;
-    
-}
-p{
-    width: 202px;
+
+main{
+    display: flex; 
 }
 
-@media (max-width: 300px) {
+@media (max-width: 500px) {
     h4 {
         display: flex;
-        flex-direction: row;
-        height: 140px;
+        flex-direction: column;
     }
 }
