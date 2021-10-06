@@ -1,5 +1,90 @@
 * {
-    padding: 0px;
-    margin: 0px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: grey;
+}
+h1 {
+    font-size: 26px;
+    text-align: center;
+    justify-content: center;
+    background-color: black;
+    color: whitesmoke;
+}
+nav {
+    text-align: center;
+    margin: 5px;
+}
+nav p {
+    font-size: large;
+    display: inline;
+    color: whitesmoke;
+    padding: 10px;
+}
+.movietube {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+}
+#movie {
+    justify-content: center;
+    background-color: black;
+    color: whitesmoke;
+}
+.menu {
+    flex-direction: row;
+    background-color: honeydew;
+    flex: 0.5;
+}
+.menu li {
+    list-style-type: none;
+    text-align: center;
+}
+.my-movie-action {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.my-movie-items {
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.column-movie {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.column-movie iframe {
+    margin-top: 4px;
+    vertical-align: middle;
+    width: 420px;
+    height: 300px;
+}
+@media (max-width: 800px) {
+
+    .box {
+        flex-wrap: wrap;
+    }
+    .column-movie iframe {
+        margin-top: 4px;
+        vertical-align: middle;
+        width: 350px;
+        height: 300px;
+    }
+}
+@media (max-width: 420px) {
+    .column-movie iframe {
+        margin-top: 1px;
+        vertical-align: middle;
+        width: 200px;
+        height: 200px;
+    }
 }
