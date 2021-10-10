@@ -1,5 +1,70 @@
-* {
-    padding: 0px;
-    margin: 0px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+*{
+    padding: 0;
+    margin: 0%;
+}
+
+body{
+    background-color: #202020;
+}
+
+#hp{
+    background-color: #4b4b4b;
+    width: 80vw;
+    margin: auto;
+}
+h1 {
+    background-color: black;
+    color: blanchedalmond;
+}
+ul{
+    list-style: none;
+}
+
+nav {
+    color: white;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+
+aside{
+    background-color: blanchedalmond;
+    color: black;
+    float: left;
+    height: 600px;
+}
+
+aside ul {
+    line-height: 1.5;
+    margin: 10px;
+}
+
+.thumbnail{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px;
+    gap: 2rem;
+}
+
+.card img{
+    width: 200px;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+}
+.movie-title {
+    background-color: #1a1a1a;
+    color: #ededed;
+    text-align: center;
+}
+
+@media (max-width: 768px) {
+    .card img {
+        width: 180px;
+    }
 }
